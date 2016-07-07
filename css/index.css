@@ -1,0 +1,28 @@
+body {
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #000000, #53346D);
+  background: linear-gradient(to left, #000000, #53346D); }
+
+#app > div {
+  display: flex;
+  justify-content: center; }
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  background: #000;
+  height: 60vh; }
+
+.box {
+  font-size: 400%;
+  height: 16vh;
+  width: 30%;
+  margin: 2% 1% 2% 1%;
+  padding: 1%;
+  background: #fff;
+  cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */
