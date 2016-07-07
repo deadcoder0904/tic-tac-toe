@@ -54,11 +54,13 @@ $(document).ready(function () {
   }
 
   function bootstrapAlert(title,message){
-    BootstrapDialog.alert({
-      title: "<h4 class='text-center text-danger'>" + title + "</h4>",
-      message: "<h1 class='text-center text-success'>" + message + "</h1>"
-    });
-    reset();
+    setTimeout(function () {
+      BootstrapDialog.alert({
+        title: "<h4 class='text-center text-danger'>" + title + "</h4>",
+        message: "<h1 class='text-center text-success'>" + message + "</h1>"
+      });
+      reset();
+    },300);
   }
 
   $box.click(function(){
